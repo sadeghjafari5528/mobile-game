@@ -1,0 +1,604 @@
+/target:library
+/nowarn:0169
+/out:Temp/Zenject.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll
+/reference:Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll
+/reference:Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll
+/reference:Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll
+/reference:Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"G:/Program Files (x86)/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/define:UNITY_2019_2_8
+/define:UNITY_2019_2
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_VR
+/define:ENABLE_AR
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Asteroid\Asteroid.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Asteroid\AsteroidManager.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Installers\GameInstaller.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Installers\GameSettingsInstaller.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Main\GameController.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Misc\AudioHandler.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Misc\GuiHandler.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Misc\LevelHelper.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Misc\TilingBackground.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Ship\Ship.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Ship\ShipStateFactory.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Ship\States\BrokenShipFactory.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Ship\States\ExplosionFactory.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Ship\States\ShipState.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Ship\States\ShipStateDead.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Ship\States\ShipStateMoving.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Ship\States\ShipStateWaitingToStart.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Util\GameEvents.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Util\UnityExtensionMethods.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\EnemyCommonSettings.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\EnemyDeathHandler.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\EnemyFacade.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\EnemyRegistry.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\EnemyRotationHandler.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\EnemyStateManager.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\EnemyTunables.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\EnemyView.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\GameEvents.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\States\EnemyStateAttack.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\States\EnemyStateFollow.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Enemy\States\EnemyStateIdle.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Installers\EnemyInstaller.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Installers\GameInstaller.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Installers\GameSettingsInstaller.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Installers\GameSignalsInstaller.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Installers\PlayerInstaller.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Misc\AudioPlayer.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Misc\Bullet.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Misc\ControlsDisplay.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Misc\EnemySpawner.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Misc\Explosion.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Misc\GameRestartHandler.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Misc\LevelBoundary.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerDamageHandler.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerDirectionHandler.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerFacade.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerGui.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerHealthWatcher.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerInputHandler.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerInputState.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerModel.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerMoveHandler.cs"
+"Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerShootHandler.cs"
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\BindSignal\BindSignalFromBinder.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\BindSignal\BindSignalIdToBinder.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\BindSignal\BindSignalToBinder.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\BindSignal\SignalCallbackWithLookupWrapper.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\BindSignal\SignalCallbackWrapper.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\DeclareSignalAsyncTickPriorityCopyBinder.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\SignalBindingBindInfo.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\SignalDeclarationBindInfo.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\SignalCopyBinder.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\SignalExtensions.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\SignalTickPriorityCopyBinder.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\SignalDeclaration.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\SignalSubscription.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\SignalSubscriptionId.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Main\SignalBus.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Main\SignalBusInstaller.cs
+Assets\Plugins\Zenject\OptionalExtras\Signals\Main\SignalDeclarationAsyncInitializer.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\ArgConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\ConcreteBinders\ConcreteBinderGeneric.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\ConcreteBinders\ConcreteBinderNonGeneric.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\ConcreteBinders\ConcreteIdBinderGeneric.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\ConcreteBinders\ConcreteIdBinderNonGeneric.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\ConcreteIdArgConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\ConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Conventions\ConventionAssemblySelectionBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Conventions\ConventionBindInfo.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Conventions\ConventionFilterTypesBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Conventions\ConventionSelectTypesBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\CopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder0.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder1.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder10.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder2.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder3.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder4.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder5.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder6.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder0.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder1.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder10.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder2.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder3.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder4.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder5.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder6.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder0.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder1.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder10.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder2.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder3.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder4.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder5.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder6.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinderBase.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinderWithParams.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\Untyped\FactoryFromBinderUntyped.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinderBase.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\DecoratorToChoiceFromBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder0.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder1.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder10.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder2.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder3.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder4.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder5.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder6.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceIdBinder\FactoryToChoiceIdBinder0.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceIdBinder\FactoryToChoiceIdBinder1.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceIdBinder\FactoryToChoiceIdBinder10.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceIdBinder\FactoryToChoiceIdBinder2.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceIdBinder\FactoryToChoiceIdBinder3.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceIdBinder\FactoryToChoiceIdBinder4.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceIdBinder\FactoryToChoiceIdBinder5.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceIdBinder\FactoryToChoiceIdBinder6.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\PlaceholderFactoryBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\Pooling\MemoryPoolBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\Pooling\MemoryPoolExpandBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\Factory\Pooling\MemoryPoolInitialSizeBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\FromBinders\FromBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\FromBinders\FromBinderGeneric.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\FromBinders\FromBinderNonGeneric.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\GameObject\NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\GameObject\TransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\IdBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\IdScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\IfNotBoundBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\InstantiateCallbackConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\NonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\ScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\SubContainerBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\Binders\WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+Assets\Plugins\Zenject\Source\Binding\BindInfo\BindInfo.cs
+Assets\Plugins\Zenject\Source\Binding\BindInfo\BindStatement.cs
+Assets\Plugins\Zenject\Source\Binding\BindInfo\FactoryBindInfo.cs
+Assets\Plugins\Zenject\Source\Binding\BindInfo\GameObjectCreationParameters.cs
+Assets\Plugins\Zenject\Source\Binding\BindInfo\MemoryPoolBindInfo.cs
+Assets\Plugins\Zenject\Source\Binding\BindingUtil.cs
+Assets\Plugins\Zenject\Source\Binding\Finalizers\IBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Binding\Finalizers\NullBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Binding\Finalizers\PrefabBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Binding\Finalizers\PrefabResourceBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Binding\Finalizers\ProviderBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Binding\Finalizers\ScopableBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Binding\Finalizers\SingleProviderBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Binding\Finalizers\SubContainerBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Binding\Finalizers\SubContainerPrefabBindingFinalizer.cs
+Assets\Plugins\Zenject\Source\Factories\FactoryProviderWrapper.cs
+Assets\Plugins\Zenject\Source\Factories\IFactory.cs
+Assets\Plugins\Zenject\Source\Factories\KeyedFactory.cs
+Assets\Plugins\Zenject\Source\Factories\PlaceholderFactory.cs
+Assets\Plugins\Zenject\Source\Factories\PlaceholderFactoryBase.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\IMemoryPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\MemoryPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\MemoryPoolBase.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\MonoMemoryPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\MonoPoolableMemoryPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\PoolableMemoryPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\PoolFactory.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\Static\PoolableStaticMemoryPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\Static\StaticMemoryPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\Util\ArrayPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\Util\DictionaryPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\Util\HashSetPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\Util\ListPool.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\Util\PoolCleanupChecker.cs
+Assets\Plugins\Zenject\Source\Factories\Pooling\Util\StaticMemoryPoolRegistry.cs
+Assets\Plugins\Zenject\Source\Factories\PrefabFactory.cs
+Assets\Plugins\Zenject\Source\Factories\PrefabResourceFactory.cs
+Assets\Plugins\Zenject\Source\Injection\InjectContext.cs
+Assets\Plugins\Zenject\Source\Injection\InjectUtil.cs
+Assets\Plugins\Zenject\Source\Injection\LazyInject.cs
+Assets\Plugins\Zenject\Source\Install\Contexts\Context.cs
+Assets\Plugins\Zenject\Source\Install\Contexts\GameObjectContext.cs
+Assets\Plugins\Zenject\Source\Install\Contexts\ProjectContext.cs
+Assets\Plugins\Zenject\Source\Install\Contexts\RunnableContext.cs
+Assets\Plugins\Zenject\Source\Install\Contexts\SceneContext.cs
+Assets\Plugins\Zenject\Source\Install\Contexts\SceneDecoratorContext.cs
+Assets\Plugins\Zenject\Source\Install\Contexts\StaticContext.cs
+Assets\Plugins\Zenject\Source\Install\IInstaller.cs
+Assets\Plugins\Zenject\Source\Install\Installer.cs
+Assets\Plugins\Zenject\Source\Install\InstallerBase.cs
+Assets\Plugins\Zenject\Source\Install\MonoInstaller.cs
+Assets\Plugins\Zenject\Source\Install\MonoInstallerBase.cs
+Assets\Plugins\Zenject\Source\Install\ScriptableObjectInstaller.cs
+Assets\Plugins\Zenject\Source\Install\ScriptableObjectInstallerBase.cs
+Assets\Plugins\Zenject\Source\Install\ZenjectBinding.cs
+Assets\Plugins\Zenject\Source\Install\ZenjectManagersInstaller.cs
+Assets\Plugins\Zenject\Source\Internal\Assert.cs
+Assets\Plugins\Zenject\Source\Internal\Func.cs
+Assets\Plugins\Zenject\Source\Internal\LinqExtensions.cs
+Assets\Plugins\Zenject\Source\Internal\Log.cs
+Assets\Plugins\Zenject\Source\Internal\MiscExtensions.cs
+Assets\Plugins\Zenject\Source\Internal\PreserveAttribute.cs
+Assets\Plugins\Zenject\Source\Internal\TypeExtensions.cs
+Assets\Plugins\Zenject\Source\Internal\TypeStringFormatter.cs
+Assets\Plugins\Zenject\Source\Internal\ValuePair.cs
+Assets\Plugins\Zenject\Source\Main\BindingId.cs
+Assets\Plugins\Zenject\Source\Main\DiContainer.cs
+Assets\Plugins\Zenject\Source\Main\IInstantiator.cs
+Assets\Plugins\Zenject\Source\Main\LazyInstanceInjector.cs
+Assets\Plugins\Zenject\Source\Main\LookupId.cs
+Assets\Plugins\Zenject\Source\Main\SingletonMarkRegistry.cs
+Assets\Plugins\Zenject\Source\Main\ZenjectSettings.cs
+Assets\Plugins\Zenject\Source\Providers\CachedOpenTypeProvider.cs
+Assets\Plugins\Zenject\Source\Providers\CachedProvider.cs
+Assets\Plugins\Zenject\Source\Providers\ComponentProviders\AddToGameObjectComponentProviders\AddToCurrentGameObjectComponentProvider.cs
+Assets\Plugins\Zenject\Source\Providers\ComponentProviders\AddToGameObjectComponentProviders\AddToExistingGameObjectComponentProvider.cs
+Assets\Plugins\Zenject\Source\Providers\ComponentProviders\AddToGameObjectComponentProviders\AddToGameObjectComponentProviderBase.cs
+Assets\Plugins\Zenject\Source\Providers\ComponentProviders\AddToGameObjectComponentProviders\AddToNewGameObjectComponentProvider.cs
+Assets\Plugins\Zenject\Source\Providers\ComponentProviders\GetFromGameObjectComponentProvider.cs
+Assets\Plugins\Zenject\Source\Providers\ComponentProviders\GetFromGameObjectGetterComponentProvider.cs
+Assets\Plugins\Zenject\Source\Providers\ComponentProviders\GetFromPrefabComponentProvider.cs
+Assets\Plugins\Zenject\Source\Providers\ComponentProviders\InstantiateOnPrefabComponentProvider.cs
+Assets\Plugins\Zenject\Source\Providers\Decorator\DecoratorProvider.cs
+Assets\Plugins\Zenject\Source\Providers\GameObjectProviders\EmptyGameObjectProvider.cs
+Assets\Plugins\Zenject\Source\Providers\GameObjectProviders\PrefabGameObjectProvider.cs
+Assets\Plugins\Zenject\Source\Providers\GetterProvider.cs
+Assets\Plugins\Zenject\Source\Providers\IFactoryProvider.cs
+Assets\Plugins\Zenject\Source\Providers\InstanceProvider.cs
+Assets\Plugins\Zenject\Source\Providers\IProvider.cs
+Assets\Plugins\Zenject\Source\Providers\IProviderExtensions.cs
+Assets\Plugins\Zenject\Source\Providers\MethodMultipleProviderUntyped.cs
+Assets\Plugins\Zenject\Source\Providers\MethodProvider.cs
+Assets\Plugins\Zenject\Source\Providers\MethodProviderMultiple.cs
+Assets\Plugins\Zenject\Source\Providers\MethodProviderSimple.cs
+Assets\Plugins\Zenject\Source\Providers\MethodProviderUntyped.cs
+Assets\Plugins\Zenject\Source\Providers\MethodProviderWithContainer.cs
+Assets\Plugins\Zenject\Source\Providers\PoolableMemoryPoolProvider.cs
+Assets\Plugins\Zenject\Source\Providers\PrefabCreators\IPrefabInstantiator.cs
+Assets\Plugins\Zenject\Source\Providers\PrefabCreators\PrefabInstantiator.cs
+Assets\Plugins\Zenject\Source\Providers\PrefabCreators\PrefabInstantiatorCached.cs
+Assets\Plugins\Zenject\Source\Providers\PrefabProviders\IPrefabProvider.cs
+Assets\Plugins\Zenject\Source\Providers\PrefabProviders\PrefabProvider.cs
+Assets\Plugins\Zenject\Source\Providers\PrefabProviders\PrefabProviderResource.cs
+Assets\Plugins\Zenject\Source\Providers\ProviderUtil.cs
+Assets\Plugins\Zenject\Source\Providers\ResolveProvider.cs
+Assets\Plugins\Zenject\Source\Providers\ResourceProvider.cs
+Assets\Plugins\Zenject\Source\Providers\ScriptableObjectInstanceProvider.cs
+Assets\Plugins\Zenject\Source\Providers\ScriptableObjectResourceProvider.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\ISubContainerCreator.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorBindInfo.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByInstaller.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByInstance.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByInstanceGetter.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByMethod.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByNewGameObjectDynamicContext.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByNewPrefab.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByNewPrefabDynamicContext.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByNewPrefabWithParams.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorCached.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorDynamicContext.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorUtil.cs
+Assets\Plugins\Zenject\Source\Providers\SubContainerDependencyProvider.cs
+Assets\Plugins\Zenject\Source\Providers\TransientProvider.cs
+Assets\Plugins\Zenject\Source\Runtime\AnimatorInterfaces\AnimatorIkHandlerManager.cs
+Assets\Plugins\Zenject\Source\Runtime\AnimatorInterfaces\AnimatorInstaller.cs
+Assets\Plugins\Zenject\Source\Runtime\AnimatorInterfaces\AnimatorMoveHandlerManager.cs
+Assets\Plugins\Zenject\Source\Runtime\AnimatorInterfaces\IAnimatorIkHandler.cs
+Assets\Plugins\Zenject\Source\Runtime\AnimatorInterfaces\IAnimatorMoveHandler.cs
+Assets\Plugins\Zenject\Source\Runtime\DisposableManager.cs
+Assets\Plugins\Zenject\Source\Runtime\GuiRenderableManager.cs
+Assets\Plugins\Zenject\Source\Runtime\GuiRenderer.cs
+Assets\Plugins\Zenject\Source\Runtime\InitializableManager.cs
+Assets\Plugins\Zenject\Source\Runtime\Kernels\DefaultGameObjectKernel.cs
+Assets\Plugins\Zenject\Source\Runtime\Kernels\Kernel.cs
+Assets\Plugins\Zenject\Source\Runtime\Kernels\MonoKernel.cs
+Assets\Plugins\Zenject\Source\Runtime\Kernels\ProjectKernel.cs
+Assets\Plugins\Zenject\Source\Runtime\Kernels\SceneKernel.cs
+Assets\Plugins\Zenject\Source\Runtime\PoolableManager.cs
+Assets\Plugins\Zenject\Source\Runtime\SceneContextRegistry.cs
+Assets\Plugins\Zenject\Source\Runtime\SceneContextRegistryAdderAndRemover.cs
+Assets\Plugins\Zenject\Source\Runtime\TaskUpdater.cs
+Assets\Plugins\Zenject\Source\Runtime\TickableManager.cs
+Assets\Plugins\Zenject\Source\Util\ActionInstaller.cs
+Assets\Plugins\Zenject\Source\Util\CheatSheet.cs
+Assets\Plugins\Zenject\Source\Util\DefaultGameObjectParentInstaller.cs
+Assets\Plugins\Zenject\Source\Util\DisposeBlock.cs
+Assets\Plugins\Zenject\Source\Util\ExecutionOrderInstaller.cs
+Assets\Plugins\Zenject\Source\Util\ProfileBlock.cs
+Assets\Plugins\Zenject\Source\Util\ProfileTimers.cs
+Assets\Plugins\Zenject\Source\Util\ReflectionInfoTypeInfoConverter.cs
+Assets\Plugins\Zenject\Source\Util\ReflectionTypeInfo.cs
+Assets\Plugins\Zenject\Source\Util\ReflectionUtil.cs
+Assets\Plugins\Zenject\Source\Util\TypeAnalyzer.cs
+Assets\Plugins\Zenject\Source\Util\UnityUtil.cs
+Assets\Plugins\Zenject\Source\Util\ValidationUtil.cs
+Assets\Plugins\Zenject\Source\Util\ZenAutoInjecter.cs
+Assets\Plugins\Zenject\Source\Util\ZenjectException.cs
+Assets\Plugins\Zenject\Source\Util\ZenjectSceneLoader.cs
+Assets\Plugins\Zenject\Source\Util\ZenjectStateMachineBehaviourAutoInjecter.cs
+Assets\Plugins\Zenject\Source\Util\ZenPools.cs
+Assets\Plugins\Zenject\Source\Util\ZenReflectionTypeAnalyzer.cs
+Assets\Plugins\Zenject\Source\Util\ZenUtilInternal.cs
+Assets\Plugins\Zenject\Source\Validation\IValidatable.cs
+Assets\Plugins\Zenject\Source\Validation\ValidationMarker.cs
